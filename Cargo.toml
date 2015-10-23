@@ -2,3 +2,8 @@
 name = "ssh"
 version = "0.1.0"
 authors = ["Lander Brandt <landerbrandt@gmail.com>"]
+
+[lib]
+name = "ssh"
+crate-type = ["dylib", "rlib"]
+
